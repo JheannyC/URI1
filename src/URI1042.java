@@ -7,6 +7,7 @@ public class URI1042 {
         X = input.nextInt();
         Y = input.nextInt();
         Z = input.nextInt();
+
         min1 = Math.min(X, Math.min(Y, Z));
         if (min1 == X) {
             min2 =Math.min(Y, Z);
